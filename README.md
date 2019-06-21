@@ -11,11 +11,11 @@ This basically means a directory that exists in multiple locations and is kept i
 
 ● Monitors its local dropbin directory for changes such as:
 
-○ If a new file is created in local dropbin directory it gets synced with the remote directory
+    ○ If a new file is created in local dropbin directory it gets synced with the remote directory
 
-○ If a file is deleted from the local dropbin directory its remote copy is also deleted
+    ○ If a file is deleted from the local dropbin directory its remote copy is also deleted
 
-○ If a file in the local dropbin directory is updated, its remote copy at the server is also updated
+    ○ If a file in the local dropbin directory is updated, its remote copy at the server is also updated
 
 ## dropbin-server.py
 ● Runs as python dropbin-server.py <port>
